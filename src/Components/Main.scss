@@ -1,0 +1,30 @@
+.main-treeContainer {
+    margin:20px 0 100px 0;
+}
+
+.main-levelDown {
+    margin:20px auto 20px auto;
+    width:250px;
+    padding:5px 0 5px 0;
+    border:1px solid black;
+    color: black;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.main-levelDownInactive {
+    margin:20px auto 20px auto;
+    width:250px;
+    padding:5px 0 5px 0;
+    border:1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    cursor:default;
+}
+
+.main-levelDownContainer {  
+    bottom: 0;
+    position:fixed;
+    width:100%;
+    background-color:#fff;
+}
